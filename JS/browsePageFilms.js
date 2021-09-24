@@ -9,150 +9,150 @@ window.addEventListener('scroll', function () {
 })
 var data = [
     {
-        src: "./large-movie1.jpg",
+        src: "./Images/large-movie1.jpg",
         heading: "The Paramedic",
         description: "Angel Hernandez is a paramedic who lives with his girlfriend  François. Angel has an unempathetic attitude towards his patients and steals from them, selling the more valuable items to a local fence. At home, he is possessive and controlling towards Vane. The couple are trying for a baby without success. Angel tells Vane it’s her fault and even suggest her inability to get pregnant is psychosomatic.  "
     },
     {
-        src: "./large-movie2.jpg",
+        src: "./Images/large-movie2.jpg",
         heading: "Sweet Girl",
         description: "Sweet Girl is a 2021 American action thriller film directed by Brian Andrew Mendoza in his feature directorial debut and written by Philip Eisner and Gregg Hurwitz. The film stars Jason Momoa, Isabela Merced, Manuel Garcia-Rulfo, Adria Arjona, Raza Jaffrey, Justin Bartha, Lex Scott Davis, Michael Raymond-James and Amy Brenneman."
     },
     {
-        src: "./large-movie3.jpg",
+        src: "./Images/large-movie3.jpg",
         heading: "Loco por ella",
         description: "Crazy About Her (Spanish: Loco por ella) is a 2021 Spanish romantic comedy film directed by Dani de la Orden, written by Natalia Durán and Eric Navarro and starring Álvaro Cervantes and Susana Abaitua.[1][2] It was released on 26 February 2021 by Netflix."
     }, {
-        src: "./large-movie4.jpg",
+        src: "./Images/large-movie4.jpg",
         heading: "Fractured",
         description: "Fractured is a 2019 American psychological thriller film directed by Brad Anderson from a screenplay by Alan B. McElroy. It stars Sam Worthington, Lily Rabe, Stephen Tobolowsky, Adjoa Andoh, and Lucy Capri."
     },
     {
-        src: "./large-movie5.jpg",
+        src: "./Images/large-movie5.jpg",
         heading: "Beasts of No Nation",
         description: "Beasts of No Nation is a 2015 American-Ghanaian war drama film written, co-produced, shot, and directed by Cary Joji Fukunaga. It follows a young boy who becomes a child soldier as his country experiences a horrific civil war. Shot in Ghana and starring Idris Elba, Abraham Attah, Ama K. Abebrese, Grace Nortey, David Dontoh, and Opeyemi Fagbohungbe, the film is based on the 2005 novel of the same name by Uzodinma Iweala,[4] the book itself being named after a Fela Kuti album."
     }, {
-        src: './large-movie6.jpg',
+        src: './Images/large-movie6.jpg',
         heading: "Shaft",
         description: "Shaft is a 2019 American action comedy film directed by Tim Story and written by Kenya Barris and Alex Barnow. The film stars Samuel L. Jackson, Jessie T. Usher, Regina Hall, and Richard Roundtree."
     },
     {
-        src: "./large-movie7.jpg",
+        src: "./Images/large-movie7.jpg",
         heading: "Live Twice, Love Once",
-        description: "Live Twice, Love Once (Spanish: Vivir dos veces) is a 2019 Spanish comedy film directed by María Ripoll. The film premiered in Madrid on 6 September 2019. As of August 2020, 50% of the eight critics reviews compiled on Rotten Tomatoes are positive, with an average rating of 5.4/10."
+        description: "Live Twice, Love Once (Spanish: Vivir dos veces) is a 2019 Spanish comedy film directed by María Ripoll. The film premiered in Madrid on 6 September 2019. As of August 2020, 50% of the eight critics reviews compiled on Rotten Tomatoes are positive, with an average rating of 5.4/Images/10."
     }, {
-        src: "./large-movie8.jpg",
+        src: "./Images/large-movie8.jpg",
         heading: "Xoxo",
         description: "xoxo is a 2016 American drama film directed by Christopher Louie and starring Sarah Hyland, Graham Phillips, Brett DelBuono, Hayley Kiyoko, Colin Woodell, Ryan Hansen, Ione Skye, and Chris D'Elia. It is based on a story by Louie and is written by Dylan Meyer. It was produced by Joe Russell p.g.a. and released on August 26, 2016, by Netflix."
     },
     {
-        src: "./small-movie1.webp",
+        src: "./Images/small-movie1.webp",
         heading: "The Paramedic",
         description: "Angel Hernandez is a paramedic who lives with his girlfriend  François. Angel has an unempathetic attitude towards his patients and steals from them, selling the more valuable items to a local fence. At home, he is possessive and controlling towards Vane. The couple are trying for a baby without success. Angel tells Vane it’s her fault and even suggest her inability to get pregnant is psychosomatic.  "
     },
     {
-        src: "./small-movie2.webp",
+        src: "./Images/small-movie2.webp",
         heading: "Sweet Girl",
         description: "Sweet Girl is a 2021 American action thriller film directed by Brian Andrew Mendoza in his feature directorial debut and written by Philip Eisner and Gregg Hurwitz. The film stars Jason Momoa, Isabela Merced, Manuel Garcia-Rulfo, Adria Arjona, Raza Jaffrey, Justin Bartha, Lex Scott Davis, Michael Raymond-James and Amy Brenneman."
     },
     {
-        src: "./small-movie3.webp",
+        src: "./Images/small-movie3.webp",
         heading: "Loco por ella",
         description: "Crazy About Her (Spanish: Loco por ella) is a 2021 Spanish romantic comedy film directed by Dani de la Orden, written by Natalia Durán and Eric Navarro and starring Álvaro Cervantes and Susana Abaitua.[1][2] It was released on 26 February 2021 by Netflix."
     }, {
-        src: "./small-movie4.webp",
+        src: "./Images/small-movie4.webp",
         heading: "Fractured",
         description: "Fractured is a 2019 American psychological thriller film directed by Brad Anderson from a screenplay by Alan B. McElroy. It stars Sam Worthington, Lily Rabe, Stephen Tobolowsky, Adjoa Andoh, and Lucy Capri."
     },
     {
-        src: "./small-movie5.webp",
+        src: "./Images/small-movie5.webp",
         heading: "Beasts of No Nation",
         description: "Beasts of No Nation is a 2015 American-Ghanaian war drama film written, co-produced, shot, and directed by Cary Joji Fukunaga. It follows a young boy who becomes a child soldier as his country experiences a horrific civil war. Shot in Ghana and starring Idris Elba, Abraham Attah, Ama K. Abebrese, Grace Nortey, David Dontoh, and Opeyemi Fagbohungbe, the film is based on the 2005 novel of the same name by Uzodinma Iweala,[4] the book itself being named after a Fela Kuti album."
     }, {
-        src: './small-movie6.webp',
+        src: './Images/small-movie6.webp',
         heading: "Elite",
         description: "Shaft is a 2019 American action comedy film directed by Tim Story and written by Kenya Barris and Alex Barnow. The film stars Samuel L. Jackson, Jessie T. Usher, Regina Hall, and Richard Roundtree."
     },
     {
-        src: "./small-movie7.webp",
+        src: "./Images/small-movie7.webp",
         heading: "Live Twice, Love Once",
-        description: "     Live Twice, Love Once (Spanish: Vivir dos veces) is a 2019 Spanish comedy film directed by María Ripoll. The film premiered in Madrid on 6 September 2019. As of August 2020, 50% of the eight critics reviews compiled on Rotten Tomatoes are positive, with an average rating of 5.4/10."
+        description: "     Live Twice, Love Once (Spanish: Vivir dos veces) is a 2019 Spanish comedy film directed by María Ripoll. The film premiered in Madrid on 6 September 2019. As of August 2020, 50% of the eight critics reviews compiled on Rotten Tomatoes are positive, with an average rating of 5.4/Images/10."
     }, {
-        src: "./small-movie8.webp",
+        src: "./Images/small-movie8.webp",
         heading: "Xoxo",
         description: "xoxo is a 2016 American drama film directed by Christopher Louie and starring Sarah Hyland, Graham Phillips, Brett DelBuono, Hayley Kiyoko, Colin Woodell, Ryan Hansen, Ione Skye, and Chris D'Elia. It is based on a story by Louie and is written by Dylan Meyer. It was produced by Joe Russell p.g.a. and released on August 26, 2016, by Netflix."
     },
     {
-        src: "./top_rated1.jpg",
+        src: "./Images/top_rated1.jpg",
         heading: "The Paramedic",
         description: "Angel Hernandez is a paramedic who lives with his girlfriend  François. Angel has an unempathetic attitude towards his patients and steals from them, selling the more valuable items to a local fence. At home, he is possessive and controlling towards Vane. The couple are trying for a baby without success. Angel tells Vane it’s her fault and even suggest her inability to get pregnant is psychosomatic.  "
     },
     {
-        src: "./top_rated2.jpg",
+        src: "./Images/top_rated2.jpg",
         heading: "Sweet Girl",
         description: "Sweet Girl is a 2021 American action thriller film directed by Brian Andrew Mendoza in his feature directorial debut and written by Philip Eisner and Gregg Hurwitz. The film stars Jason Momoa, Isabela Merced, Manuel Garcia-Rulfo, Adria Arjona, Raza Jaffrey, Justin Bartha, Lex Scott Davis, Michael Raymond-James and Amy Brenneman."
     },
     {
-        src: "./top_rated3.jpg",
+        src: "./Images/top_rated3.jpg",
         heading: "Loco por ella",
         description: "Crazy About Her (Spanish: Loco por ella) is a 2021 Spanish romantic comedy film directed by Dani de la Orden, written by Natalia Durán and Eric Navarro and starring Álvaro Cervantes and Susana Abaitua.[1][2] It was released on 26 February 2021 by Netflix."
     }, {
-        src: "./top_rated4.jpg",
+        src: "./Images/top_rated4.jpg",
         heading: "Fractured",
         description: "Fractured is a 2019 American psychological thriller film directed by Brad Anderson from a screenplay by Alan B. McElroy. It stars Sam Worthington, Lily Rabe, Stephen Tobolowsky, Adjoa Andoh, and Lucy Capri."
     },
     {
-        src: "./top_rated5.jpg",
+        src: "./Images/top_rated5.jpg",
         heading: "Beasts of No Nation",
         description: "Beasts of No Nation is a 2015 American-Ghanaian war drama film written, co-produced, shot, and directed by Cary Joji Fukunaga. It follows a young boy who becomes a child soldier as his country experiences a horrific civil war. Shot in Ghana and starring Idris Elba, Abraham Attah, Ama K. Abebrese, Grace Nortey, David Dontoh, and Opeyemi Fagbohungbe, the film is based on the 2005 novel of the same name by Uzodinma Iweala,[4] the book itself being named after a Fela Kuti album."
     }, {
-        src: './top_rated6.jpg',
+        src: './Images/top_rated6.jpg',
         heading: "Elite",
         description: "Shaft is a 2019 American action comedy film directed by Tim Story and written by Kenya Barris and Alex Barnow. The film stars Samuel L. Jackson, Jessie T. Usher, Regina Hall, and Richard Roundtree."
     },
     {
-        src: "./top_rated7.jpg",
+        src: "./Images/top_rated7.jpg",
         heading: "Live Twice, Love Once",
-        description: "     Live Twice, Love Once (Spanish: Vivir dos veces) is a 2019 Spanish comedy film directed by María Ripoll. The film premiered in Madrid on 6 September 2019. As of August 2020, 50% of the eight critics reviews compiled on Rotten Tomatoes are positive, with an average rating of 5.4/10."
+        description: "     Live Twice, Love Once (Spanish: Vivir dos veces) is a 2019 Spanish comedy film directed by María Ripoll. The film premiered in Madrid on 6 September 2019. As of August 2020, 50% of the eight critics reviews compiled on Rotten Tomatoes are positive, with an average rating of 5.4/Images/10."
     }, {
-        src: "./top_rated8.jpg",
+        src: "./Images/top_rated8.jpg",
         heading: "Xoxo",
         description: "xoxo is a 2016 American drama film directed by Christopher Louie and starring Sarah Hyland, Graham Phillips, Brett DelBuono, Hayley Kiyoko, Colin Woodell, Ryan Hansen, Ione Skye, and Chris D'Elia. It is based on a story by Louie and is written by Dylan Meyer. It was produced by Joe Russell p.g.a. and released on August 26, 2016, by Netflix."
     },
     {
-        src: "./action_movie1.webp",
+        src: "./Images/action_movie1.webp",
         heading: "The Paramedic",
         description: "Angel Hernandez is a paramedic who lives with his girlfriend  François. Angel has an unempathetic attitude towards his patients and steals from them, selling the more valuable items to a local fence. At home, he is possessive and controlling towards Vane. The couple are trying for a baby without success. Angel tells Vane it’s her fault and even suggest her inability to get pregnant is psychosomatic.  "
     },
     {
-        src: "./action_movie2.webp",
+        src: "./Images/action_movie2.webp",
         heading: "Sweet Girl",
         description: "Sweet Girl is a 2021 American action thriller film directed by Brian Andrew Mendoza in his feature directorial debut and written by Philip Eisner and Gregg Hurwitz. The film stars Jason Momoa, Isabela Merced, Manuel Garcia-Rulfo, Adria Arjona, Raza Jaffrey, Justin Bartha, Lex Scott Davis, Michael Raymond-James and Amy Brenneman."
     },
     {
-        src: "./action_movie3.webp",
+        src: "./Images/action_movie3.webp",
         heading: "Loco por ella",
         description: "Crazy About Her (Spanish: Loco por ella) is a 2021 Spanish romantic comedy film directed by Dani de la Orden, written by Natalia Durán and Eric Navarro and starring Álvaro Cervantes and Susana Abaitua.[1][2] It was released on 26 February 2021 by Netflix."
     }, {
-        src: "./action_movie4.webp",
+        src: "./Images/action_movie4.webp",
         heading: "Fractured",
         description: "Fractured is a 2019 American psychological thriller film directed by Brad Anderson from a screenplay by Alan B. McElroy. It stars Sam Worthington, Lily Rabe, Stephen Tobolowsky, Adjoa Andoh, and Lucy Capri."
     },
     {
-        src: "./action_movie5.webp",
+        src: "./Images/action_movie5.webp",
         heading: "Beasts of No Nation",
         description: "Beasts of No Nation is a 2015 American-Ghanaian war drama film written, co-produced, shot, and directed by Cary Joji Fukunaga. It follows a young boy who becomes a child soldier as his country experiences a horrific civil war. Shot in Ghana and starring Idris Elba, Abraham Attah, Ama K. Abebrese, Grace Nortey, David Dontoh, and Opeyemi Fagbohungbe, the film is based on the 2005 novel of the same name by Uzodinma Iweala,[4] the book itself being named after a Fela Kuti album."
     }, {
-        src: './action_movie6.webp',
+        src: './Images/action_movie6.webp',
         heading: "Elite",
         description: "Shaft is a 2019 American action comedy film directed by Tim Story and written by Kenya Barris and Alex Barnow. The film stars Samuel L. Jackson, Jessie T. Usher, Regina Hall, and Richard Roundtree."
     },
     {
-        src: "./action_movie7.webp",
+        src: "./Images/action_movie7.webp",
         heading: "Live Twice, Love Once",
-        description: "     Live Twice, Love Once (Spanish: Vivir dos veces) is a 2019 Spanish comedy film directed by María Ripoll. The film premiered in Madrid on 6 September 2019. As of August 2020, 50% of the eight critics reviews compiled on Rotten Tomatoes are positive, with an average rating of 5.4/10."
+        description: "     Live Twice, Love Once (Spanish: Vivir dos veces) is a 2019 Spanish comedy film directed by María Ripoll. The film premiered in Madrid on 6 September 2019. As of August 2020, 50% of the eight critics reviews compiled on Rotten Tomatoes are positive, with an average rating of 5.4/Images/10."
     }, {
-        src: "./action_movie8.webp",
+        src: "./Images/action_movie8.webp",
         heading: "Xoxo",
         description: "xoxo is a 2016 American drama film directed by Christopher Louie and starring Sarah Hyland, Graham Phillips, Brett DelBuono, Hayley Kiyoko, Colin Woodell, Ryan Hansen, Ione Skye, and Chris D'Elia. It is based on a story by Louie and is written by Dylan Meyer. It was produced by Joe Russell p.g.a. and released on August 26, 2016, by Netflix."
     }
@@ -217,10 +217,10 @@ function showRomanticMovies(value) {
     }
     document.getElementsByClassName("videoDiv")[5].style.display = 'block';
 }
-function closeVideoDiv() {
-    for (var i = 0; i < document.getElementsByClassName('videoDiv').length; i++) {
-        document.getElementsByClassName("videoDiv")[i].style.display = 'none';
-    }
+function closeVideoDiv(value) {
+
+        document.getElementsByClassName("videoDiv")[value].style.display = 'none';
+
 }
 $(document).ready(function () {
     var $videoSrc;
