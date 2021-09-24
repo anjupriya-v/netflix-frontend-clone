@@ -95,7 +95,6 @@ header.series {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .headerContent {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -198,7 +197,6 @@ header.series {
     }
     .headerContent {
         padding-top: 5em !important;
-
         margin-left: 4em;
     }
     .headerContent h1 {

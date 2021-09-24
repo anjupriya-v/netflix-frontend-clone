@@ -218,9 +218,7 @@ function showRomanticMovies(value) {
     document.getElementsByClassName("videoDiv")[5].style.display = 'block';
 }
 function closeVideoDiv(value) {
-
-        document.getElementsByClassName("videoDiv")[value].style.display = 'none';
-
+    document.getElementsByClassName("videoDiv")[value].style.display = 'none';
 }
 $(document).ready(function () {
     var $videoSrc;
