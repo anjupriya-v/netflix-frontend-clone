@@ -67,7 +67,7 @@ body.modal-open {
 i {
     cursor: pointer;
 }
-.videoContent {
+.videoContent, .imageDiv {
     display: flex;
     align-items: center;
     justify-content: center;
