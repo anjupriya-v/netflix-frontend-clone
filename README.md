@@ -1,6 +1,10 @@
 # netflix-frontend-clone
 
-### Developed using HTML , CSS , JS
+### Tech Stacks used
+
+- Hypertext Markup language
+- Cascading Style Sheet
+- Javascript
 
 ### Demo Video 👇
 
