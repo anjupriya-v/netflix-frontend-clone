@@ -21,7 +21,7 @@
       <a href="./index.html">
         <img class="navbar-brand logoImage" src="Images/netflix-logo.png" alt="logoImage" />
       </a>
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav">
         <li class="nav-item ">
           <a class="nav-link " href="./browsePageFilms.html">Films</a>
         </li>
@@ -37,7 +37,7 @@
       </div>
       <div class="buttonDiv">
         <button data-toggle="modal" class="video-btn mt-3" data-target="#myModal"
-          data-src="https://www.youtube.com/embed/htqXL94Rza4?autohide=1&autoplay=1">
+          data-src="https://www.youtube.com/embed/_InqQJRqGW4?autohide=1&autoplay=0">
           Play
         </button>
       </div>
@@ -57,6 +57,8 @@
   </div>
   <div class="rowDiv">
     <h1>NETFLIX ORIGINALS</h1>
+    <div class="prev" onclick="prevFunction(0)" type="button"></div>
+    <div class="next" onclick="nextFunction(0)" type="button"></div>
     <div class="imagesDiv">
       <img src="./Images/large-series1.jpg" onClick="showVideo(0)" class="firstRowImage images" alt="image_1" />
       <img src="./Images/large-series2.jpg" onClick="showVideo(1)" class="firstRowImage images" alt="image_2" />
@@ -86,7 +88,7 @@
             <p class="videoDescription"></p>
             <div class="buttonDiv ">
               <button data-toggle="modal" class="video-btn videoButton" data-target="#myModal"
-                data-src="https://www.youtube.com/embed/EnjTEzi7m0k?autohide=1&autoplay=1">
+                data-src="https://www.youtube.com/embed/EnjTEzi7m0k?autohide=1&autoplay=0">
                 Play
               </button>
             </div>
@@ -99,6 +101,8 @@
     </div>
     <div class="rowDiv">
       <h1>Trending Now</h1>
+      <div class="prev" onclick="prevFunction(1)" type="button"></div>
+      <div class="next" onclick="nextFunction(1)" type="button"></div>
       <div class="imagesDiv">
         <img src="./Images/small-series1.jpg " onClick="showTrending(8)" class="images" alt="image_9" />
         <img src="./Images/small-series2.jpg " onClick="showTrending(9)" class="images" alt="image_10" />
@@ -128,7 +132,7 @@
               <p class="videoDescription"></p>
               <div class="buttonDiv ">
                 <button data-toggle="modal" class="video-btn videoButton" data-target="#myModal"
-                  data-src="https://www.youtube.com/embed/EnjTEzi7m0k?autohide=1&autoplay=1">
+                  data-src="https://www.youtube.com/embed/EnjTEzi7m0k?autohide=1&autoplay=0">
                   Play
                 </button>
               </div>
@@ -142,6 +146,8 @@
     </div>
     <div class="rowDiv">
       <h1>Top Rated</h1>
+      <div class="prev" onclick="prevFunction(2)" type="button"></div>
+      <div class="next" onclick="nextFunction(2)" type="button"></div>
       <div class="imagesDiv">
         <img src="./Images/top_rated_series1.jpg " onClick="showTopRated(16)" class="images" alt="image_17" />
         <img src="./Images/top_rated_series2.webp " onClick="showTopRated(17)" class="images" alt="image_18" />
@@ -171,7 +177,7 @@
               <p class="videoDescription"></p>
               <div class="buttonDiv ">
                 <button data-toggle="modal" class="video-btn videoButton" data-target="#myModal"
-                  data-src="https://www.youtube.com/embed/EnjTEzi7m0k?autohide=1&autoplay=1">
+                  data-src="https://www.youtube.com/embed/EnjTEzi7m0k?autohide=1&autoplay=0">
                   Play
                 </button>
               </div>
@@ -185,6 +191,8 @@
     </div>
     <div class="rowDiv">
       <h1>Action Series</h1>
+      <div class="prev" onclick="prevFunction(3)" type="button"></div>
+      <div class="next" onclick="nextFunction(3)" type="button"></div>
       <div class="imagesDiv">
         <img src="./Images/action_series1.jpg " onClick="showActionSeries(24)" class="images" alt="image_25" />
         <img src="./Images/action_series2.jpg " onClick="showActionSeries(25)" class="images" alt="image_26" />
@@ -214,7 +222,7 @@
               <p class="videoDescription"></p>
               <div class="buttonDiv ">
                 <button data-toggle="modal" class="video-btn videoButton" data-target="#myModal"
-                  data-src="https://www.youtube.com/embed/EnjTEzi7m0k?autohide=1&autoplay=1">
+                  data-src="https://www.youtube.com/embed/EnjTEzi7m0k?autohide=1&autoplay=0">
                   Play
                 </button>
               </div>
@@ -300,11 +308,13 @@
         </div>
       </div>
       <div class=" text-center py-3">
-        Developed with ❤️ by Anju Priya V
+        Developed with ❤️ by Anju Priya V | 
+        Image and Video Source : Netflix
       </div>
     </footer>
     <script>
-      alert("The Content in this page is just Sample content for cloning Purpose, not apt content ")
+      alert("The Content in this page is just for sample. Image and Video Source from Netflix")
+
 
     </script>
     <script src="./JS/browsePageSeries.js"></script>
